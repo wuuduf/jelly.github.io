@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>我的情绪不是我</title>
+      <link href="/2026/01/11/2026-1-11-2/"/>
+      <url>/2026/01/11/2026-1-11-2/</url>
+      
+        <content type="html"><![CDATA[<p>如果一直活在自己的情绪里，我感觉我迟早有一天会承受不住的，不知道是怎么了，以前让我感到快乐的东西，以前我能保持专注力做的事情现在已经难以保持较长时间，是发现有些事情，就算是你努力也是没有好结果的吗，拜托，我人生中没有几件认真去做的事，唯一一两件我觉得非常重要的事情，却落得现在这样的下场。世界法则，社会规则，人际关系我真的在学了，但是我真的难以融进去<br>这一切的原因正的是因为我的价值支点太少了吗，想想也是，人应该是疯狂爱上什么才能活下去，到底什么是我爱上的东西，我到底适合什么，我为什么这么贬低自己，不断反思自己，难道是因为我觉得一件事情没做好一定是自己的原因吗，为什么有些毫不在意，有些久久环绕，真的是矛盾，我真的能接受自己吗，我感觉要被自己的想法内耗死了，自认为的道德也在压着我，我真的想变得很烂，可是真做成那样就不是我了。<br>算了，累了，每天打打字，在个人世界发点牢骚希望能有点缓解，不是我封闭自己，是我的想法已经没有社交欲望了，但我只能记住，我的想法不是我，不被想法真的内耗致死罢了</p><blockquote><p>我的想法不是我<br>我的想法不是我<br>我的想法不是我</p></blockquote><p>还有一些不变的东西陪着我，或许音乐是我一辈子不会舍去的东西，我应该投入更多热爱。</p><hr><p>现在正在听<br>《九月底》— 余佳运<br>小清新的R&amp;B，爱情真的很美妙</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 碎碎念 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>singbox配置模版</title>
       <link href="/2026/01/11/2026-1-11/"/>
       <url>/2026/01/11/2026-1-11/</url>
       
-        <content type="html"><![CDATA[<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>为了追求极致的性能，我想从生态完善的mihomi转到singbox内核，其中singbox的配置文件是最为重要的部分，我将分享我所用的模版，又是如何手搓将✈️的链接写进模版</p><hr><blockquote><p>既然使用代理工具，那肯定需要机场或者自建节点，以下是我自己在用的机场（都只建议月付，月付保平安，含aff）</p><ol><li>花云 <a href="https://api-flowercloud.com/aff.php?aff=15675">https://api-flowercloud.com/aff.php?aff=15675</a> —-性价比一线机场，口碑很好 三网体验都不错，还有0.2倍率节点，良心</li><li>良心云 <a href="https://良心云.com/#/register?code=ixi5QeBG">https://xn--9kqz23b19z.com/#/register?code=ixi5QeBG</a>   —量大管饱直连机场，便宜拿来看emby极佳（但比较看地区和运营商）</li><li>赔钱 <a href="https://赔钱.com/#/register?code=tO8P8Jw9">https://xn--cp3a08l.com/#/register?code=tO8P8Jw9</a> —量大管饱直连机场- 便宜拿来看emby极佳（但比较看地区和运营商）</li></ol></blockquote><hr><p>配置讲解</p><p>官方文档 </p><hr><h2 id="音乐推荐"><a href="#音乐推荐" class="headerlink" title="音乐推荐"></a>音乐推荐</h2><hr><p>《相见恨早》 —- 黄泊声<br>封面挺独特的，哈哈哈哈哈哈哈哈，第一眼觉得是2002发的歌，不像2022年的，好听的R&amp;B </p>]]></content>
+        <content type="html"><![CDATA[<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>为了追求极致的性能，我想从生态完善的mihomi转到singbox内核，其中singbox的配置文件是最为重要的部分，我将分享我所用的模版，又是如何手搓将✈️的链接写进模版</p><hr><blockquote><p>既然使用代理工具，那肯定需要机场或者自建节点，以下是我自己在用的机场（都只建议月付，月付保平安，含aff）</p><ol><li>花云 <a href="https://api-flowercloud.com/aff.php?aff=15675">https://api-flowercloud.com/aff.php?aff=15675</a> —-性价比一线机场，口碑很好 三网体验都不错，还有0.2倍率节点，良心</li><li>良心云 <a href="https://良心云.com/#/register?code=ixi5QeBG">https://xn--9kqz23b19z.com/#/register?code=ixi5QeBG</a>   —量大管饱直连机场，便宜拿来看emby极佳（但比较看地区和运营商）</li><li>赔钱 <a href="https://赔钱.com/#/register?code=tO8P8Jw9">https://xn--cp3a08l.com/#/register?code=tO8P8Jw9</a> —量大管饱直连机场- 便宜拿来看emby极佳（但比较看地区和运营商）</li></ol></blockquote><hr><p>配置讲解<br>讲解再多都没有自己去看官方文档准确<br>官方文档  —   <a href="https://sing-box.sagernet.org/zh/">https://sing-box.sagernet.org/zh/</a></p><hr><h2 id="音乐推荐"><a href="#音乐推荐" class="headerlink" title="音乐推荐"></a>音乐推荐</h2><hr><p>《相见恨早》 —- 黄泊声<br>封面挺独特的，哈哈哈哈哈哈哈哈，第一眼觉得是2002发的歌，不像2022年的，R&amp;B真不错</p>]]></content>
       
       
       <categories>
