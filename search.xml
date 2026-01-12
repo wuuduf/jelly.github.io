@@ -29,32 +29,6 @@
     
     
     <entry>
-      <title></title>
-      <link href="/2026/01/12/%E6%9C%AA%E5%91%BD%E5%90%8D%202/"/>
-      <url>/2026/01/12/%E6%9C%AA%E5%91%BD%E5%90%8D%202/</url>
-      
-        <content type="html"><![CDATA[<p><code>ryu.app.gui_topology.gui_topology --observe-links</code></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/2026/01/12/%E6%9C%AA%E5%91%BD%E5%90%8D/"/>
-      <url>/2026/01/12/%E6%9C%AA%E5%91%BD%E5%90%8D/</url>
-      
-        <content type="html"><![CDATA[<p>你现在是一位资深的 SDN 网络工程师和 Python 开发者，精通 Mininet 和 Ryu 控制器开发。请帮助我完成一个基于 OpenFlow 1.3 的 Fat-Tree 多路径负载均衡（ECMP） 实验。</p><p>【实验环境】<br>macos vmwarefusion下的虚拟机<br>OS: Ubuntu 20.04</p><p>Mininet: 2.3.0</p><p>Ryu: 4.34</p><p>Python: 3.8</p><p>【任务 1：Mininet 拓扑脚本】 请给我一个完整的 Python 脚本 fat_tree_topo.py。</p><p>拓扑结构：k&#x3D;2 Fat-Tree 简化版。</p><p>2 台核心交换机 (c1, c2) 或 1 台核心 (c1)。</p><p>2 台聚合&#x2F;边缘交换机 (a1, a2)。</p><p>2 台主机 (h1, h2)。</p><p>关键点：a1 和 a2 之间必须有直接链路，或者它们都连接到 c1 形成物理环路。h1 连接 a1，h2 连接 a2。</p><p>配置：</p><p>使用 RemoteController (127.0.0.1:6633)。</p><p>交换机必须开启 protocols&#x3D;’OpenFlow13’。</p><p>不需要由你来解决环路风暴，这交给控制器处理。</p><p>【任务 2：Ryu 控制器脚本（核心难点）】 请给我一个完整的 Ryu 应用脚本 smart_route.py。</p><p>功能要求：</p><p>自动拓扑发现：利用 LLDP 发现交换机和链路，构建 NetworkX 图。</p><p>防止广播风暴：严禁使用简单的泛洪（Flood）。必须使用 Dijkstra 最短路径算法 计算源到目的的路径，并下发精确的 output:port 流表。对于未知目的 MAC，仅进行受限处理。</p><p>流量监控：每隔 5 秒请求一次端口统计 (OFPPortStatsRequest)。</p><p>动态负载均衡：计算链路利用率。如果某条链路负载超过 80%，动态增加该链路在 NetworkX 图中的权重（Weight），使得后续的 Dijkstra 计算自动选择另一条空闲路径。</p><p>【任务 3：操作步骤】 请简要列出：</p><p>如何清理 Mininet 残留。</p><p>启动 Ryu 的命令（需要加载 gui_topology 以便观察）。</p><p>启动 Mininet 的命令。</p><p>如何使用 iperf 产生流量来验证路径切换。</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>2026-1-12</title>
       <link href="/2026/01/12/2026-1-12-1/"/>
       <url>/2026/01/12/2026-1-12-1/</url>
